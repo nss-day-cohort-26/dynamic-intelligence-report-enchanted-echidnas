@@ -6,7 +6,15 @@ rlExecH2.textContent = "Executive Summary"
 // Create an array with the h2 element as it's first item
 const rlArray = []
 
+const rlImage = document.createElement('img')
+rlImage.setAttribute('src', 'https://gakg5sv2p13fjr0q1hulkabr-wpengine.netdna-ssl.com/wp-content/uploads/2017/06/torosian_leonardo.jpg')
+
 // Make variables for a section
+const rlCountry = 'Country of Origin'
+const rlCountryText = ['Armenia']
+const rlCountryFuction = createSection(rlCountry, rlCountryText)
+const rlCountrySection = [rlCountryFuction]
+
 const rlAliasHead = 'Known Aliases'
 const rlAliasList = ['R. Alessandro Torington', 'King Rodge Toyne', 'Ruben A. Tozzi', 'Torosian Rubblood']
 const rlAliasFunction = createSection(rlAliasHead, rlAliasList)
@@ -20,7 +28,7 @@ const rlAssocList = ['Manav Brock', 'Mischa Rose', 'Fern Burks']
 const rlAssocFunction = createSection(rlAssocHead, rlAssocList)
 const rlAssocSection = [rlAssocFunction]
 
-rlArray.push(rlExecH2, rlAliasFunction, rlAssocFunction)
+rlArray.push(rlExecH2, rlImage, rlCountryFuction, rlAliasFunction, rlAssocFunction)
 
 
 

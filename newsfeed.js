@@ -1,6 +1,7 @@
 //Main Header
 const jh_h2 = document.createElement("h2");
 const jh_h2text = document.createTextNode("News Feed");
+jh_h2.setAttribute("id", "jh__h2");
 jh_h2.appendChild(jh_h2text);
 //First News Report
 const jh_h3one = "McDonald's Robbed!!!"

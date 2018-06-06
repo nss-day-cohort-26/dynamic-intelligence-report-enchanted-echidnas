@@ -1,5 +1,6 @@
 // Create an h2 element with the title of the section in it
 const rlExecH2 = document.createElement('h2');
+rlExecH2.setAttribute('id', 'rl__h2')
 rlExecH2.textContent = "Executive Summary"
 
 // Create an array with the h2 element as it's first item

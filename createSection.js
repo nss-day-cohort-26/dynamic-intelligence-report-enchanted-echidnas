@@ -9,7 +9,11 @@ const createSection = (param1, param2) => {
     section.appendChild(h3)
     for (let i=0; i<param2.length; i++) {
         let li = document.createElement('li');
-        li.textContent = param2[i];
+        if (typeof param2[i] === "string") {
+            li.textContent = param2[i];
+        } else {
+            li.appendChild(param2[i]);
+        }
         ul.appendChild(li);
     }
     section.appendChild(ul);

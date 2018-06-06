@@ -7,3 +7,4 @@ function append(array) {
     artSel.appendChild(frag)
 }
 append(testArray)
+append(arrayTest)

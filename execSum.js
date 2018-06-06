@@ -14,7 +14,12 @@ const rlAliasSection = [rlAliasFunction]
 // Push that section to the array: array.push(sectionName)
 // Rinse and repeat
 
-rlArray.push(rlExecH2, rlAliasFunction)
+const rlAssocHead = 'Accomplices'
+const rlAssocList = ['Manav Brock', 'Mischa Rose', 'Fern Burks']
+const rlAssocFunction = createSection(rlAssocHead, rlAssocList)
+const rlAssocSection = [rlAssocFunction]
+
+rlArray.push(rlExecH2, rlAliasFunction, rlAssocFunction)
 
 
 

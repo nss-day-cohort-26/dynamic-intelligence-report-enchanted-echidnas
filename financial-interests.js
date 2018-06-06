@@ -28,7 +28,7 @@ ehArray.push(launderingSection);
 
 // List of blackmailed officials
 const officialsHead = "Blackmailed officials:";
-const officialsList = ["King George III", ];
+const officialsList = ["King George III", "Police Commissioner James Gordon", "Judge Judy"];
 const officialsSection = createSection(officialsHead, officialsList);
 ehArray.push(officialsSection);
 

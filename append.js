@@ -6,8 +6,8 @@ function append(array) {
     }
     artSel.appendChild(frag)
 }
-append(testArray)
-append(arrayTest)
+// append(testArray)
+// append(arrayTest)
 append(rlArray)
 append(bsArray)
 append(jh_array)

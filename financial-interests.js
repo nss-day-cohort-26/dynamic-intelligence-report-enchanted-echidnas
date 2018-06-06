@@ -1,6 +1,7 @@
 // Create an h2 element with the title of the section in it
 const h2 = document.createElement("h2");
 h2.textContent = "Financial Interests";
+h2.id = "eh__h2";
 
 // Create an array with the h2 element as it's first item
 const ehArray = [h2];

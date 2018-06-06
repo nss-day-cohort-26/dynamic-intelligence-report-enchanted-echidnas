@@ -4,6 +4,7 @@
 
 let bsH2 = document.createElement("h2");
 let bsH2Text = document.createTextNode("Rap Sheet");
+bsH2.id = "bs__h2";
 bsH2.appendChild(bsH2Text)
 // wanted list
 const bsH3Crimes = "Wanted For:"

@@ -17,19 +17,19 @@ ehArray.push(accountSection);
 // List of businesses
 const businessHead = "Legitimate business interests:";
 const businessList = [];
-const businessSection = createSection(accountHead, accountList);
+const businessSection = createSection(businessHead, businessList);
 ehArray.push(businessSection);
 
 // List of money laundering businesses
 const launderingHead = "Suspected front corporations for money laundering:";
 const launderingList = ["Dollarz Laundromat, LLC", ];
-const launderingSection = createSection(accountHead, accountList);
+const launderingSection = createSection(launderingHead, launderingList);
 ehArray.push(launderingSection);
 
 // List of blackmailed officials
 const officialsHead = "Blackmailed officials:";
 const officialsList = ["King George III"];
-const officialsSection = createSection(accountHead, accountList);
+const officialsSection = createSection(officialsHead, officialsList);
 ehArray.push(officialsSection);
 
 

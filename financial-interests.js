@@ -16,13 +16,13 @@ ehArray.push(accountSection);
 
 // List of businesses
 const businessHead = "Legitimate business interests:";
-const businessList = [];
+const businessList = ["Ruben's Sandwich Shop (owner)", "Unlimited, Ltd. (shareholder)",];
 const businessSection = createSection(businessHead, businessList);
 ehArray.push(businessSection);
 
 // List of money laundering businesses
 const launderingHead = "Suspected front corporations for money laundering:";
-const launderingList = ["Dollarz Laundromat, LLC", ];
+const launderingList = ["Dollarz Laundromat, LLC", "The Cash Cleaners Corporation", "Red, Inc."];
 const launderingSection = createSection(launderingHead, launderingList);
 ehArray.push(launderingSection);
 

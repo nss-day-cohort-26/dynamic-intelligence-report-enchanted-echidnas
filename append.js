@@ -8,3 +8,7 @@ function append(array) {
 }
 append(testArray)
 append(arrayTest)
+append(rlArray)
+append(bsArray)
+append(jh_array)
+append(ehArray)

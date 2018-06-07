@@ -1,3 +1,15 @@
+/* 
+This page: 
+1. Creates an <h2> element to be used as the title of the segment
+2. Gives that element an id and places it in ehArray, which will eventually be used to represent the entire segment
+3. Defines a string variable for each <section> heading and an array of strings, each of which will represent an <li> within the <ul>
+4. Runs createSection( header, list-items[ ] ) and stores it in a variable
+5. Pushes that variable into ehArray 
+6. Repeat steps 3-5 for each of the 4 <section> elements
+*/
+
+
+
 // Create an h2 element with the title of the section in it
 const h2 = document.createElement("h2");
 h2.textContent = "Financial Interests";

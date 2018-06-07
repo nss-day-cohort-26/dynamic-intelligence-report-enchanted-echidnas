@@ -39,3 +39,30 @@ img{
     height: 75vh;
     max-width: 100%;
 }
+
+@media only screen and (max-width: 700px) {
+    img {
+        max-height: 300px;
+    }
+
+    article {
+        margin: 1em;
+        font-size: 1em;
+    }
+
+    h2 {
+        position: static;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    img {
+        min-height: 40px;
+        min-width: 220px;
+    }
+    article {
+        margin: 0;
+        font-size: .75em;
+
+    }
+}

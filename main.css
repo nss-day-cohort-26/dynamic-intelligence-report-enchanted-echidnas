@@ -47,6 +47,7 @@ img{
 
     article {
         margin: 1em;
+        font-size: 1em;
     }
 
     h2 {
@@ -61,5 +62,7 @@ img{
     }
     article {
         margin: 0;
+        font-size: .75em;
+
     }
 }

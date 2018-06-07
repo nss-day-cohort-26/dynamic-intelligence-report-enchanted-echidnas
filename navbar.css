@@ -47,3 +47,46 @@
     color: tomato;
     padding-left: .5em;
 }
+
+@media only screen and (max-width: 750px) {
+    .navbar {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .navbar ul {
+        display: inline-block;
+        margin: 0;
+        width: 100%;
+        margin: 0;
+    }
+
+    .navbar ul li {
+        display: inline-block;
+        margin: 0;
+    }
+
+    .navbar ul li a {
+        margin: 0;
+        display: inline-block;
+        font-size: .8em;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .navbar {
+        font-size: .5em;
+    }
+    
+    .navbar ul {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .navbar ul li {
+        margin: 0;
+        padding: 0;
+        width: 24%;
+        font-size: 1.25em;
+    }
+}

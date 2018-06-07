@@ -13,19 +13,19 @@ const bsListCrimes = ["1000 counts of murder","Stealing hard candy from the elde
 const bsWantedList = createSection(bsH3Crimes, bsListCrimes);
 //convictions
 const bsh3Convic = "Convicted Of:"
-const bsListConvic = ["Grand arsen", "Running over squirells", "Eating Kale"];
+const bsListConvic = ["Grand arson", "Running over squirrels", "Eating kale"];
 const bsConvictions = createSection(bsh3Convic, bsListConvic);
 //prisons
 const bsH3Prison = "Incarcerated In:"
-const bsListPrison = ["Alcatraz: 1972-1981", "Guantonamo Bay: 1982-1994",];
+const bsListPrison = ["Alcatraz: 1972-1981", "Guantanamo Bay: 1982-1994",];
 const bsPrisons = createSection(bsH3Prison, bsListPrison);
 //witnesses
-const bsH3witness = "Witneses:"
-const bsListWitness = ["Old lady Jenkins","Mr. Abernathy","Countless Elves", "Woodland creatures"]
+const bsH3witness = "Witnesses:"
+const bsListWitness = ["Old Lady Jenkins","Mr. Abernathy","Countless elves", "Woodland creatures"]
 const bsWitnesses = createSection(bsH3witness, bsListWitness)
 //victims
 const bsH3Vic = "Victims:"
-const bsListVic = ["Santa Claus","Mr.Rogers","Bill Cosby's Pet Squirrel"];
+const bsListVic = ["Santa Claus","Mr. Rogers","Bill Cosby's pet squirrel"];
 const bsVictims = createSection(bsH3Vic, bsListVic)
 
  

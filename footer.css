@@ -1,0 +1,36 @@
+.footer {
+    background-color: maroon;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+}
+
+.footer ul {
+    margin: 0;
+    display: flex;
+    width: 85%;
+    height: 100%;
+    align-items: flex-start;
+    padding: .5em;
+}
+
+.footer ul li {
+  display: flex;
+  margin: 0 .5em;
+  height: 100%;
+  text-align: center;
+  color: white;
+  font-weight: normal;
+  font-size: .75em;
+}
+
+.footer h3 {
+    display: inline;
+    color: white;
+    padding-left: .5em;
+  font-size: 1.5em;
+  margin: 0;
+}

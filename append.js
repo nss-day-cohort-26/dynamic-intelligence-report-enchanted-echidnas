@@ -15,3 +15,5 @@ append(rlArray)
 append(bsArray)
 append(jh_array)
 append(ehArray)
+const body = document.querySelector("body");
+body.insertBefore(footer, document.querySelector("script"));

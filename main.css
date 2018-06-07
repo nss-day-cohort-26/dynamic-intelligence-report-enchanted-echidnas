@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#f1d592 ;
+    background-image: url();
+    color: black;
+    background-repeat: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 120%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1300px 900px; 
+    font-family: FreeMono, monospace;
+}
+li {
+    
+    list-style: none;  
+}
+
+section {
+    
+}
+
